@@ -1,0 +1,8 @@
+.navbar{
+	background-color: transparent !important;
+
+}
+.stuck {
+	position: fixed !important;
+	background-color: red;
+}
