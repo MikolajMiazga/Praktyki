@@ -1,0 +1,193 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/just-waves.png");
+	font-size: 20px;
+	margin: 0;
+	
+}
+
+#container2 {
+	background-color: white;
+	width: 1000px;
+	margin-left: 100px;
+	margin-right: auto;
+	margin-top: 20px;
+	float: left;
+	font-family: 'Lato';
+	font-size: 20px;
+	text-align: justify;
+	border: 2px solid #f73e3b;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#container3 {
+	background-color: #309BC5;
+	width: 1000px;
+	margin-left: 100px;
+	margin-right: auto;
+	margin-top: 40px;
+	float: top, left;
+	font-family: 'Lato';
+	font-size: 40px;
+	text-align: center;
+	border: 3px dashed #DCC12E;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+#container {
+
+	font-family: 'Lato';
+	background-color: #EBEBEB;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: 3%;
+	margin-top: 45px;
+	-webkit-box-shadow: 0px 0px 12px 1px #144052;
+	-moz-box-shadow: 0px 0px 12px 1px #144052;
+	box-shadow: 0px 0px 12px 1px #144052;
+	float: right;
+
+}
+#container4 {
+
+	text-align: center;
+	font-family: 'Lato';
+	background-color: #f73e3b;
+	width: 300px;
+	padding: 1px 50px 1px 50px;
+	margin-left: auto;
+	margin-right: 3%;
+	margin-top: -110px;
+	-webkit-box-shadow: 0px 0px 12px 1px #144052;
+	-moz-box-shadow: 0px 0px 12px 1px #144052;
+	box-shadow: 0px 0px 12px 1px #144052;
+	float: top;
+	border-radius: 15%;
+	
+
+}
+
+#container5 
+{
+
+	font-family: 'Lato';
+	background-color: #EBEBEB;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: 3%;
+	margin-top: 40px;
+	-webkit-box-shadow: 0px 0px 12px 1px #144052;
+	-moz-box-shadow: 0px 0px 12px 1px #144052;
+	box-shadow: 0px 0px 12px 1px #144052;
+	float: right;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+}
+
+.img {
+	border: 2px solid #309BC5;
+	height:200px;
+	background-size: cover;
+	width:100%;
+	
+}
+
+.footer {
+	width: 100%;
+	float: bottom;
+	background-color: #3A2404;
+	position: fixed;
+	bottom: 0;
+	color: #309BC5;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 10px;
+	max-height: 30px;
+	
+}
+
+input[type=text],
+input[type=password] {
+	width: 300px;
+	background-color: white;
+	color: #313638;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: "Lato";
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=submit] {
+	width:300px;
+	background-color:#F8524F;
+	font-family: 'Lato';
+	font-size:20px;
+	color: #313638;
+	padding: 9px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	
+}
+input[type=submit]:hover {
+	background-color: #EF6461;
+}
+
+input::-webkit-input-placeholder{
+	color: #999;
+}
+input:focus::-webkit-input-placeholder {
+	color: #DCC12E
+}
+
+input:-moz-placeholder {
+	color: #999;
+}
+
+input:focus:-moz-placeholder {
+	color: #DCC12E;
+}
+
+input::-moz-placeholder {
+	color: #999;
+}
+
+input:focus::-moz-placeholder {
+	color: #DCC12E;
+}
+
+input:-ms-input-placeholder {
+	color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+	color: #DCC12E;
+}
+
+
+input[type=text]:focus,
+input[type=password]:focus 
+{
+	-webkit-box-shadow: 0px 0x 2px 1px #E7DA88;
+	-moz-box-shadow: 0px 0px 2px 1px #E7DA88;
+	box-shadow: 0px 0px 2px 1px #E7DA88;
+	border: 1px solid #E0D067;
+	background-color: #FCFAEE;
+	color: #DCC12E;
+}
+
