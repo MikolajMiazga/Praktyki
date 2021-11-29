@@ -1,0 +1,115 @@
+body {
+  margin: 0 auto;
+  background-image: url("img/swirl_pattern.png");
+}
+#Mtext {
+  font-family: "lato";
+  color: black;
+  font-size: 220%;
+  margin-bottom: -5%;
+  text-align: center !important;
+}
+#text {
+  font-family: "lato";
+  color: black;
+}
+
+.container {
+  width: 25%;
+  height: 53%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #309bc5;
+  border-radius: 1%;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-top: 2%;
+  height: 45px;
+  width: 65%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #fff8f0;
+  padding-left: 2%;
+  border-color: #392f5a;
+}
+
+.check {
+  margin-top: -1%;
+  margin-bottom: 4%;
+}
+
+.btn-login {
+  padding: 3%;
+  width: 100%;
+  border: none;
+  background-color: #f4d06f;
+  color: #392f5a;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+  font-weight: bold;
+  bottom: 0 !;
+}
+
+.error {
+  color: #f54900;
+  margin-top: -2.5%;
+  background-color: #fff8f0;
+}
+input[type="submit"]:hover {
+  background-color: #f2c854;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #ccb848;
+}
+input:focus::-webkit-input-placeholder {
+  color: #dcc12e;
+  border: none;
+}
+
+input:-moz-placeholder {
+  color: #ccb848;
+  border: none;
+}
+
+input:focus:-moz-placeholder {
+  color: #dcc12e;
+  border: none;
+}
+
+input::-moz-placeholder {
+  color: #ccb848;
+  border: none;
+}
+
+input:focus::-moz-placeholder {
+  color: #dcc12e;
+  border: none;
+}
+
+input:-ms-input-placeholder {
+  color: #ccb848;
+  border: none;
+}
+
+input:focus:-ms-input-placeholder {
+  color: #dcc12e;
+  border: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  -webkit-box-shadow: 0px 0x 2px 1px #e7da88;
+  -moz-box-shadow: 0px 0px 2px 1px #e7da88;
+  box-shadow: 0px 0px 2px 1px #e7da88;
+  border: 1px solid #e0d067;
+  background-color: #fcfaee;
+  color: #dcc12e;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}

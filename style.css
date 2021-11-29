@@ -1,0 +1,220 @@
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("img/22.png");
+  font-size: 20px;
+  margin: 0;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+#main {
+  margin: 1% 1% 1% 1%;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  margin-top: -4%;
+  margin-left: 1%;
+  margin-right: 7%;
+  align-items: center;
+  float: right;
+}
+/*   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column; */
+
+#container2 {
+  background-color: white;
+  width: 58%;
+  margin-left: 4%;
+  margin-right: 1%;
+  margin-top: 20px;
+  float: left;
+  font-family: "Lato";
+  font-size: 20px;
+  text-align: justify;
+  border: 2px solid #f73e3b;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#container3 {
+  background-color: #309bc5;
+  width: 58%;
+  margin-left: 4%;
+  margin-right: 1%;
+  margin-top: 40px;
+  float: left;
+  font-family: "Lato";
+  font-size: 40px;
+  text-align: center;
+  border: 2px dashed #dcc12e;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#container {
+  font-family: "Lato";
+  background-color: #ebebeb;
+  width: 300px;
+  padding: 50px;
+
+  margin-top: 45px;
+  -webkit-box-shadow: 0px 0px 12px 1px #144052;
+  -moz-box-shadow: 0px 0px 12px 1px #144052;
+  box-shadow: 0px 0px 12px 1px #144052;
+  float: right;
+}
+#container4 {
+  background-color: #f73e3b;
+  width: 300px;
+  padding: 1px 50px 1px 50px;
+
+  margin-top: -5%;
+  -webkit-box-shadow: 0px 0px 12px 1px #144052;
+  -moz-box-shadow: 0px 0px 12px 1px #144052;
+  box-shadow: 0px 0px 12px 1px #144052;
+  border-radius: 15%;
+  max-height: 3%;
+  float: right;
+}
+
+#container5 {
+  font-family: "Lato";
+  background-color: #ebebeb;
+  width: 300px;
+  padding: 50px;
+
+  margin-top: 40px;
+  -webkit-box-shadow: 0px 0px 12px 1px #144052;
+  -moz-box-shadow: 0px 0px 12px 1px #144052;
+  box-shadow: 0px 0px 12px 1px #144052;
+}
+
+.img {
+  border: 2px solid #309bc5;
+  height: 200px;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  float: bottom;
+  background-color: #3a2404;
+  position: fixed;
+  bottom: 0;
+  color: #309bc5;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 10px;
+  max-height: 30px;
+  margin-left: -1%;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  background-color: white;
+  color: #313638;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Lato";
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  width: 300px;
+  background-color: #f8524f;
+  font-family: "Lato";
+  font-size: 20px;
+  color: #313638;
+  padding: 9px 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  outline: none;
+}
+input[type="submit"]:hover {
+  background-color: #ef6461;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+input:focus::-webkit-input-placeholder {
+  color: #dcc12e;
+}
+
+input:-moz-placeholder {
+  color: #999;
+}
+
+input:focus:-moz-placeholder {
+  color: #dcc12e;
+}
+
+input::-moz-placeholder {
+  color: #999;
+}
+
+input:focus::-moz-placeholder {
+  color: #dcc12e;
+}
+
+input:-ms-input-placeholder {
+  color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+  color: #dcc12e;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  -webkit-box-shadow: 0px 0x 2px 1px #e7da88;
+  -moz-box-shadow: 0px 0px 2px 1px #e7da88;
+  box-shadow: 0px 0px 2px 1px #e7da88;
+  border: 1px solid #e0d067;
+  background-color: #fcfaee;
+  color: #dcc12e;
+}
+
+a:hover {
+  color: #309bc5 !important;
+}
+
+@media only screen and (max-width: 1713px) {
+  #container2 {
+    width: 90%;
+    margin-left: 0.7% !important;
+    margin-right: 0.7% !important;
+  }
+
+  #container3 {
+    width: 90%;
+    margin-left: 0.7% !important;
+    margin-right: 0.7% !important;
+  }
+
+  #box {
+    margin-right: 9% !important;
+    margin-left: 5% !important;
+    margin-top: 10% !important;
+    display: flex;
+    align-items: center !important;
+  }
+}
