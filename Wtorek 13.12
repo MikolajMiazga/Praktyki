@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="flickity.css" type="text/css" />
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
+    
+    <meta name="keywords" content="test, test" />
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tytuł</title>
+</head>
+<body>
+
+  
+
+<div class="main">
+    
+    
+    <div id="nav" style=" 
+    background-color: rgba(0, 0, 0, 0.281) ;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+    width: 100%;
+    position: fixed !important;
+    padding: 0.5rem 1rem !important;">
+
+        <div class="logo"><img src="img/x.png"></div>
+        <div class="buttons1">
+             <div class="a1"><a href="#/">Produkty</a></div> 
+             <div class="a1"> <a href="#/">O nas</a></div> 
+             <div class="a1"> <a href="#/">Kontakt</a></div> 
+             <div class="a1"> <a href="#/">Zwiedzanie</a></div> 
+        </div>
+        <button class="language-button" >
+            <div class="flagpl pl-active">Polski</div>
+            <div class="flagen">Eng</div>
+            <div class="flagde">Deutsch</div>
+        </button>
+
+    </div>
+<div class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }' >
+    
+        <div class="gallery-cell"><img src="img/blue1.png"></div>
+        <div class="gallery-cell"><img src="img/violet.png"></div>
+        <div class="gallery-cell"><img src="img/orange.png"></div>
+        <div class="gallery-cell"><img src="img/blue1.png"></div>
+        <div class="gallery-cell"><img src="img/violet.png"></div>
+</div>
+    <div class="content1">
+     <div class="zdjecia1">
+         <div class="imgc1">
+             
+            
+           <a href="img/malpa1.jpg"> <img  src="img/kid1.jpg"></a> <div class="textimg1">
+             <p>Opinia Experta  - Jest ok.</p><div>
+        </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+<div class="mtext">
+
+   
+       <h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel feugiat enim. </h1> <p>Suspendisse ac suscipit ipsum. Fusce tempus commodo malesuada. Suspendisse lacinia auctor magna vel rutrum. Nullam et volutpat libero, a sagittis leo. Nunc laoreet leo eu nulla posuere malesuada. In sagittis suscipit enim in iaculis. Integer eros erat, dapibus sed fringilla vitae, porttitor at nunc.
+
+Etiam ornare ullamcorper erat, eu volutpat neque aliquam in. Vivamus justo metus, luctus eget massa et, eleifend posuere nisi. Sed non elit est. Sed lobortis diam ut ligula interdum, eu faucibus sem finibus. Mauris varius lectus ac congue efficitur. Mauris eleifend cursus purus in scelerisque. Fusce viverra massa erat, id posuere orci bibendum a. Phasellus condimentum elit eu nibh scelerisque consectetur. Sed eget diam in felis posuere pulvinar nec in leo. Aliquam posuere finibus eros, non venenatis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer molestie massa elit. Proin at pellentesque elit, sed porttitor arcu. Nam elementum est quis orci laoreet suscipit.
+
+Donec tincidunt vitae mauris vel molestie. Curabitur convallis, sapien vel consequat posuere, nulla lacus eleifend dui, sit amet mattis velit eros ac diam. Sed felis nunc, pellentesque condimentum dolor nec, vulputate malesuada ex. Phasellus semper leo vel vestibulum sodales. Quisque in hendrerit ante. Vivamus malesuada rutrum hendrerit. Sed rhoncus, lacus non venenatis vestibulum, velit diam suscipit magna, pharetra feugiat nisi risus non quam. Ut felis mauris, ornare et mattis sed, eleifend nec quam. Vestibulum dictum porta consectetur. Aenean accumsan consectetur est eget vestibulum. Etiam dictum egestas rhoncus.
+
+Integer urna leo, sodales nec risus eu, gravida semper nulla. Aliquam fringilla elit massa, in sollicitudin eros interdum at. Vivamus et libero eros. Suspendisse arcu arcu, volutpat sit amet orci mattis, maximus porttitor tortor. Vestibulum rhoncus consequat posuere. Sed metus sapien, hendrerit vel tempor vitae, pharetra condimentum orci. Fusce ac imperdiet enim, in varius diam. Donec mattis pharetra purus vel cursus. Mauris varius, dolor sed lobortis tempus, est nulla scelerisque dui, id varius diam urna a nulla. Vivamus quis velit faucibus ex pretium eleifend posuere quis tortor. Duis ut rutrum tortor, id commodo elit. Vivamus mollis laoreet justo id convallis. Aliquam erat volutpat. Aliquam faucibus, nibh vel dignissim aliquet, lectus orci ullamcorper nulla, nec dictum lorem erat eget augue. Nulla id sapien orci. Aliquam egestas felis in mauris iaculis, iaculis mattis dui pretium.
+
+In nisi sem, congue sed dignissim at, maximus blandit lacus. Etiam cursus lacinia mauris a convallis. Mauris faucibus arcu ut cursus eleifend. Duis scelerisque non lacus ut accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ac nisl at quam consequat laoreet sed vel nisi. Sed egestas nunc nec ipsum pharetra varius. Sed consequat lectus id sollicitudin molestie. Phasellus vestibulum nibh id quam gravida ullamcorper. Vestibulum lobortis elementum urna vel sagittis.
+    </p>
+</div>
+
+
+</div>
+
+<div class="elementy1">
+    <div class="t1"><h1>Nasze zwierzaki</h1></div>
+    <div class="segreg">
+        <div class="zdj1">
+            <div class="p1">
+               
+            </div>
+            <div class="tcat1">
+
+            </div>
+        </div>
+
+        <div class="zdj1">
+            <div class="p2">
+                <img src="img/cat2.png">
+            </div>
+            <div class="tcat2">
+
+            </div>
+        </div>
+
+        <div class="zdj1">
+            <div class="p3">
+                <img src="img/cat3.png">
+            </div>
+            <div class="tcat3">
+
+            </div>
+        </div>
+
+        <div class="zdj1">
+            <div class="p4">
+                <img src="img/cat4.png">
+            </div>
+            <div class="tcat4">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+    <script src="flickity.pkgd.min.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
